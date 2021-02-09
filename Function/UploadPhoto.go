@@ -5,9 +5,6 @@ import(
 	"majootest/database"
 	"majootest/model"
 	"github.com/gin-gonic/gin"
-	// "golang.org/x/crypto/bcrypt"
-	// "path/filepath"
-	// "net/http"
 	"log"
 )
 
@@ -26,8 +23,6 @@ func UploadPhoto(c *gin.Context){
 		ErrorBadRequest(c, "Request incomplete")
 		return
 	}
-
- 	
 
     file, err := c.FormFile("file")
 		if err != nil {

@@ -4,8 +4,6 @@ import(
 	"majootest/database"
 	"majootest/model"
 	"github.com/gin-gonic/gin"
-	// "gorm.io/gorm"	
-	// "golang.org/x/crypto/bcrypt"
 	"net/http"
 	// "errors"
 	// "regexp"

@@ -8,7 +8,6 @@ import(
 	"golang.org/x/crypto/bcrypt"
 	"net/http"
 	"errors"
-	// "regexp"
 )
 
 type LoginUser struct {
